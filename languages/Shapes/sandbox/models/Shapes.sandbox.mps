@@ -9,6 +9,12 @@
   </imports>
   <registry>
     <language id="27991d42-86a7-4227-8618-81e0e47a254c" name="Shapes">
+      <concept id="5061184994027828370" name="Shapes.structure.Oval" flags="ng" index="29F0hX">
+        <property id="5061184994027828960" name="height" index="29F0of" />
+        <property id="5061184994027828956" name="width" index="29F0oN" />
+        <property id="5061184994027828953" name="y" index="29F0oQ" />
+        <property id="5061184994027828951" name="x" index="29F0oS" />
+      </concept>
       <concept id="118190158262220085" name="Shapes.structure.ColorReference" flags="ng" index="2uyl1B">
         <reference id="118190158262220086" name="target" index="2uyl1$" />
       </concept>
@@ -47,10 +53,19 @@
     </node>
     <node concept="2uyG3_" id="6zTlavalSw" role="2uyG2m">
       <property role="2uyG3E" value="100" />
-      <property role="2uyG3C" value="200" />
+      <property role="2uyG3C" value="300" />
       <property role="2uyG3J" value="50" />
       <node concept="2uyl1B" id="6zTlavaPXu" role="2uyl0M">
         <ref role="2uyl1$" to="ryde:6zTlavaFjO" resolve="green" />
+      </node>
+    </node>
+    <node concept="29F0hX" id="4oWWeZf$xOs" role="2uyG2m">
+      <property role="29F0oS" value="100" />
+      <property role="29F0oN" value="200" />
+      <property role="29F0oQ" value="200" />
+      <property role="29F0of" value="100" />
+      <node concept="2uyl1B" id="4oWWeZf$xOv" role="2uyl0M">
+        <ref role="2uyl1$" to="ryde:6zTlavaFjP" resolve="red" />
       </node>
     </node>
   </node>
