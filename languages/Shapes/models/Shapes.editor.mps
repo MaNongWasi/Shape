@@ -178,5 +178,41 @@
       <node concept="l2Vlx" id="6zTlavaFm5" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4oWWeZf$ft7">
+    <ref role="1XX52x" to="7kqp:4oWWeZf$fii" resolve="Oval" />
+    <node concept="3EZMnI" id="4oWWeZf$fum" role="2wV5jI">
+      <node concept="3F0ifn" id="4oWWeZf$fuw" role="3EZMnx">
+        <property role="3F0ifm" value="oval" />
+      </node>
+      <node concept="3F0ifn" id="4oWWeZf$fuA" role="3EZMnx">
+        <property role="3F0ifm" value="x:" />
+      </node>
+      <node concept="3F0A7n" id="4oWWeZf$fve" role="3EZMnx">
+        <ref role="1NtTu8" to="7kqp:4oWWeZf$frn" resolve="x" />
+      </node>
+      <node concept="3F0ifn" id="4oWWeZf$fvo" role="3EZMnx">
+        <property role="3F0ifm" value="y:" />
+      </node>
+      <node concept="3F0A7n" id="4oWWeZf$fv$" role="3EZMnx">
+        <ref role="1NtTu8" to="7kqp:4oWWeZf$frp" resolve="y" />
+      </node>
+      <node concept="3F0ifn" id="4oWWeZf$fvM" role="3EZMnx">
+        <property role="3F0ifm" value="width:" />
+      </node>
+      <node concept="3F0A7n" id="4oWWeZf$fwi" role="3EZMnx">
+        <ref role="1NtTu8" to="7kqp:4oWWeZf$frs" resolve="width" />
+      </node>
+      <node concept="3F0ifn" id="4oWWeZf$fw$" role="3EZMnx">
+        <property role="3F0ifm" value="height:" />
+      </node>
+      <node concept="3F0A7n" id="4oWWeZf$fxJ" role="3EZMnx">
+        <ref role="1NtTu8" to="7kqp:4oWWeZf$frw" resolve="height" />
+      </node>
+      <node concept="PMmxH" id="4oWWeZf$fy5" role="3EZMnx">
+        <ref role="PMmxG" node="6zTlavaFlW" resolve="ShapeColor" />
+      </node>
+      <node concept="l2Vlx" id="4oWWeZf$fup" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -17,6 +17,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptCircle = createDescriptorForCircle();
   /*package*/ final ConceptDescriptor myConceptColor = createDescriptorForColor();
   /*package*/ final ConceptDescriptor myConceptColorReference = createDescriptorForColorReference();
+  /*package*/ final ConceptDescriptor myConceptOval = createDescriptorForOval();
   /*package*/ final ConceptDescriptor myConceptShape = createDescriptorForShape();
   /*package*/ final ConceptDescriptor myConceptSquare = createDescriptorForSquare();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -33,7 +34,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptShape, myConceptSquare);
+    return Arrays.asList(myConceptCanvas, myConceptCircle, myConceptColor, myConceptColorReference, myConceptOval, myConceptShape, myConceptSquare);
   }
 
   @Override
@@ -48,6 +49,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptColor;
       case LanguageConceptSwitch.ColorReference:
         return myConceptColorReference;
+      case LanguageConceptSwitch.Oval:
+        return myConceptOval;
       case LanguageConceptSwitch.Shape:
         return myConceptShape;
       case LanguageConceptSwitch.Square:
@@ -99,6 +102,19 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:7fccd85e-8400-492b-8d62-4ff6708e1f42(Shapes.structure)/118190158262220085");
     b.version(2);
     b.associate("target", 0x1a3e5529f2ab536L).target(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2a6d7cL).optional(false).origin("118190158262220086").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOval() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Oval", 0x27991d4286a74227L, 0x861881e0e47a254cL, 0x463cf0efcf90f492L);
+    b.class_(false, false, false);
+    b.super_("Shapes.structure.Shape", 0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925acL);
+    b.origin("r:7fccd85e-8400-492b-8d62-4ff6708e1f42(Shapes.structure)/5061184994027828370");
+    b.version(2);
+    b.property("x", 0x463cf0efcf90f6d7L).type(PrimitiveTypeId.INTEGER).origin("5061184994027828951").done();
+    b.property("y", 0x463cf0efcf90f6d9L).type(PrimitiveTypeId.INTEGER).origin("5061184994027828953").done();
+    b.property("width", 0x463cf0efcf90f6dcL).type(PrimitiveTypeId.INTEGER).origin("5061184994027828956").done();
+    b.property("height", 0x463cf0efcf90f6e0L).type(PrimitiveTypeId.INTEGER).origin("5061184994027828960").done();
+    b.alias("oval");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForShape() {
