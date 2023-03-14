@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module namespace="Shapes.sandbox" type="solution" uuid="67cbc7cc-c19c-4883-97fd-5d05f736bcdc">
+  <dependencies>
+    <module kind="rt" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+    <module kind="rt" ref="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" />
+  </dependencies>
+  <uses>
+    <language id="l:27991d42-86a7-4227-8618-81e0e47a254c:Shapes" />
+  </uses>
+  <classpath>
+    <entry path="." />
+  </classpath>
+  <sources descriptor="Shapes.sandbox.msd" jar="Shapes.sandbox-src.jar" />
+</module>
