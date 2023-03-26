@@ -12,32 +12,34 @@
       <node id="118190158262132245" at="16,29,17,33" concept="0" />
       <node id="118190158262132245" at="17,33,18,30" concept="0" />
       <node id="118190158262132245" at="18,30,19,35" concept="0" />
-      <node id="118190158262132245" at="22,28,23,31" concept="0" />
-      <node id="118190158262132245" at="23,31,24,56" concept="0" />
-      <node id="118190158262132245" at="24,56,25,20" concept="0" />
-      <node id="118190158262132245" at="25,20,26,52" concept="0" />
-      <node id="118190158262132245" at="26,52,27,16" concept="0" />
-      <node id="118190158262132245" at="27,16,28,26" concept="0" />
-      <node id="118190158262132245" at="30,42,31,39" concept="3" />
-      <node id="118190158262132245" at="31,39,32,24" concept="0" />
-      <node id="118190158262132245" at="30,0,34,0" concept="4" trace="main#([Ljava/lang/String;)V" />
-      <node id="118190158262132245" at="13,0,21,0" concept="2" trace="paintComponent#(Ljava/awt/Graphics;)V" />
-      <node id="118190158262132245" at="22,0,30,0" concept="2" trace="initialize#()V" />
-      <node id="118190158262132245" at="12,0,22,0" concept="1" trace="panel" />
-      <scope id="118190158262132245" at="30,42,32,24">
+      <node id="118190158262132245" at="19,35,20,27" concept="0" />
+      <node id="118190158262132245" at="20,27,21,36" concept="0" />
+      <node id="118190158262132245" at="24,28,25,31" concept="0" />
+      <node id="118190158262132245" at="25,31,26,56" concept="0" />
+      <node id="118190158262132245" at="26,56,27,20" concept="0" />
+      <node id="118190158262132245" at="27,20,28,52" concept="0" />
+      <node id="118190158262132245" at="28,52,29,16" concept="0" />
+      <node id="118190158262132245" at="29,16,30,26" concept="0" />
+      <node id="118190158262132245" at="32,42,33,39" concept="3" />
+      <node id="118190158262132245" at="33,39,34,24" concept="0" />
+      <node id="118190158262132245" at="32,0,36,0" concept="4" trace="main#([Ljava/lang/String;)V" />
+      <node id="118190158262132245" at="24,0,32,0" concept="2" trace="initialize#()V" />
+      <node id="118190158262132245" at="13,0,23,0" concept="2" trace="paintComponent#(Ljava/awt/Graphics;)V" />
+      <node id="118190158262132245" at="12,0,24,0" concept="1" trace="panel" />
+      <scope id="118190158262132245" at="32,42,34,24">
         <var name="canvas" id="118190158262132245" />
       </scope>
-      <scope id="118190158262132245" at="30,0,34,0">
+      <scope id="118190158262132245" at="32,0,36,0">
         <var name="args" id="118190158262132245" />
       </scope>
-      <scope id="118190158262132245" at="14,47,19,35" />
-      <scope id="118190158262132245" at="22,28,28,26" />
-      <scope id="118190158262132245" at="13,0,21,0">
+      <scope id="118190158262132245" at="24,28,30,26" />
+      <scope id="118190158262132245" at="14,47,21,36" />
+      <scope id="118190158262132245" at="24,0,32,0" />
+      <scope id="118190158262132245" at="13,0,23,0">
         <var name="g" id="118190158262132245" />
       </scope>
-      <scope id="118190158262132245" at="22,0,30,0" />
-      <unit id="118190158262132245" at="12,29,21,3" name="Shapes.sandbox.MyDrawing$1" />
-      <unit id="118190158262132245" at="11,0,35,0" name="Shapes.sandbox.MyDrawing" />
+      <unit id="118190158262132245" at="12,29,23,3" name="Shapes.sandbox.MyDrawing$1" />
+      <unit id="118190158262132245" at="11,0,37,0" name="Shapes.sandbox.MyDrawing" />
     </file>
   </root>
 </debug-info>

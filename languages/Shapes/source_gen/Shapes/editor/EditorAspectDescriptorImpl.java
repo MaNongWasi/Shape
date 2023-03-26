@@ -28,6 +28,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 3:
         return Collections.<ConceptEditor>singletonList(new ColorReference_Editor());
       case 4:
+        return Collections.<ConceptEditor>singletonList(new Oval_Editor());
+      case 5:
         return Collections.<ConceptEditor>singletonList(new Square_Editor());
       default:
     }
@@ -62,7 +64,7 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925c1L), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925adL), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2a6d7cL), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2ab535L), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925b7L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925c1L), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925adL), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2a6d7cL), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2ab535L), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x463cf0efcf90f492L), MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925b7L)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2925acL)).seal();
   private static final ConceptSwitchIndex conceptIndex2 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x27991d4286a74227L, 0x861881e0e47a254cL, 0x1a3e5529f2ab535L)).seal();
 }

@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Circle;
   private ConceptPresentation props_Color;
   private ConceptPresentation props_ColorReference;
+  private ConceptPresentation props_Oval;
   private ConceptPresentation props_Shape;
   private ConceptPresentation props_Square;
 
@@ -49,6 +50,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ColorReference = cpb.create();
         }
         return props_ColorReference;
+      case LanguageConceptSwitch.Oval:
+        if (props_Oval == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("oval");
+          props_Oval = cpb.create();
+        }
+        return props_Oval;
       case LanguageConceptSwitch.Shape:
         if (props_Shape == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
